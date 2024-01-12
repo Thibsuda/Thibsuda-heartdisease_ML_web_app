@@ -5,13 +5,13 @@ Created on Thu Jan 11 11:06:33 2024
 
 @author: m1.thibsuda
 """
-
+import os
 import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 
 # loading the model open('filepath/filename','rb')
-heartdisease_model = pickle.load(open('/Users/m1.thibsuda/Desktop/Multiple Disease prediction system/heartdisease_model.sav', 'rb'))
+heartdisease_model = pickle.load(open('heartdisease_model.sav', 'rb'))
 #create sidebar set default_index 0 = the first bar on the slidebar
 with st.sidebar:
     selected = option_menu('Heart Disease Prediction System using ML',
