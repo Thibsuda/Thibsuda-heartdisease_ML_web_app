@@ -86,9 +86,9 @@ if (selected == 'Heart Disease Prediction'):
         
         heart_prediction = heartdisease_model.predict([user_input])
         #create another if condition for the result 
-        if(heart_prediction[0]==1):
-              heart_dignosis = 'Algorithm predict the person is having heart disease'
-        else:
+        if(heart_prediction[0]==0):
               heart_dignosis = 'Algorithm predict the person does not have any heart disease'
+        else:
+              heart_dignosis = 'Algorithm predict the person is having heart disease'
               
     st.success(heart_dignosis)
