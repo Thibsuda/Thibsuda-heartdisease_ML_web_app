@@ -99,6 +99,6 @@ if selected == "Data dictionary":
 
     # page title
     st.title("Data dictionary")
-    st.text("age - age in years")
+ 
     
     
