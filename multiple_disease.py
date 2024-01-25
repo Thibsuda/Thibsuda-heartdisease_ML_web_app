@@ -15,8 +15,9 @@ heartdisease_model = pickle.load(open('heartdisease_model.sav', 'rb'))
 #create sidebar set default_index 0 = the first bar on the slidebar
 with st.sidebar:
     selected = option_menu('Heart Disease Prediction System using ML',
-                           ['Heart Disease Prediction'],
-                           icons=['heart'],
+                           ['Heart Disease Prediction',
+                           'Info'],
+                           icons=['heart','book'],
                            default_index=0)
 
 # heart disease prediction page
