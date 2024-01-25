@@ -95,7 +95,17 @@ if (selected == 'Heart Disease Prediction'):
     st.success(heart_dignosis)
 
 # Infomation
-if selected == "Info":
+if selected == "Data dictionary":
 
     # page title
     st.title("Data dictionary")
+    
+    col1 ,col2 = st,columns(2)
+    with col1:
+        st.text_input("age - age in years
+sex - (1 = male; 0 = female)", 
+" cp - chest pain type
+0: Typical angina: chest pain related decrease blood supply to the heart
+1: Atypical angina: chest pain not related to heart
+2: Non-anginal pain: typically esophageal spasms (non heart related)
+3: Asymptomatic: chest pain not showing signs of disease")
