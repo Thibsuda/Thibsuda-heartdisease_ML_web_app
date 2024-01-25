@@ -104,7 +104,4 @@ if selected == "Data dictionary":
     with col1:
         st.text_input("age - age in years",
 "sex - (1 = male; 0 = female)", 
-" cp - chest pain type, 0 Typical angina: chest pain related decrease blood supply to the heart
-,1 Atypical angina: chest pain not related to heart,
-2 Non-anginal pain: typically esophageal spasms (non heart related),
-3 Asymptomatic: chest pain not showing signs of disease ")
+" cp - chest pain type, 0 Typical angina: chest pain related decrease blood supply to the heart,1 Atypical angina: chest pain not related to heart,2 Non-anginal pain: typically esophageal spasms(non heart related),3 Asymptomatic chest pain not showing signs of disease ")
