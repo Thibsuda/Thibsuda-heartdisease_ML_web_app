@@ -138,5 +138,5 @@ if selected == "Info":
             * 1,3: normal
             * 6: fixed defect: used to be defect but ok now
             * 7: reversable defect: no proper blood movement when excercising
-    14.target - have disease or not (1=yes, 0=no) (= the predicted attribute) """)
+    14.target - have disease or not (1=yes, 0=no) (= the predicted attribute)                                                                                 """)
     
