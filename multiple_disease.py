@@ -125,7 +125,7 @@ if selected == "Info":
         * Enlarged heart's main pumping chamber
         Sentence 8.thalach - maximum heart rate achieved
         Sentence 9.exang - exercise induced angina (1 = yes; 0 = no) do you get heart pain when you do exercise
-        Sentence 10. oldpeak - ST depression induced by exercise relative to rest looks at stress of heart during excercise unhealthy heart will stress more    """)
+        Sentence 10. oldpeak - ST depression induced by exercise relative to rest looks at stress of heart during excercise unhealthy heart will stress more 
         Sentence 11. slope - the slope of the peak exercise ST segment
     * 0: Upsloping: better heart rate with excercise (uncommon)
     * 1: Flatsloping: minimal change (typical healthy heart)
@@ -137,5 +137,5 @@ if selected == "Info":
     * 1,3: normal
     * 6: fixed defect: used to be defect but ok now
     * 7: reversable defect: no proper blood movement when excercising
-    Sentence 14.target - have disease or not (1=yes, 0=no) (= the predicted attribute)    
+    Sentence 14.target - have disease or not (1=yes, 0=no) (= the predicted attribute) """)
     
