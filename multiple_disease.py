@@ -102,7 +102,10 @@ if selected == "Info":
 
     # Info Box with Paragraph
     st.info("""
-        This is an information show you the information that you need to put on prediction example gender male put 1,female put 0 into the box.
+        To receive predictions, please input the required information below. Follow the guidelines provided for each input box.
+        "Gender: Enter '1' for male and '0' for female."
+
+
         
         1.age - age in years
         2.sex - (1 = male; 0 = female)
